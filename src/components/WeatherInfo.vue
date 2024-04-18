@@ -1,6 +1,7 @@
 <!-- src/components/Weather.vue -->
 <template>
     <div>
+      
       <h1>Current Weather</h1>
       <p>Temperature: {{ temperature }}°C</p>
       <p>Description: {{ weatherData?.description }}</p>

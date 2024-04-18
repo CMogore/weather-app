@@ -1,6 +1,7 @@
 src/views/Home.vue
 <template>
     <div>
+        <a href="/About">About</a>
       <h1>Welcome to the Weather App!</h1>
       <button @click="fetchWeather">Fetch Weather Data</button>
       <Weather v-if="weatherData" />
